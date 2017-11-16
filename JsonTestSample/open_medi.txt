@@ -1,0 +1,37 @@
+// command : open medi
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.20262985-688f-46c8-b96f-9a34ecae5667",
+    "application": {
+      "applicationId": "amzn1.ask.skill.73e9411e-0902-422d-bb85-cfd2a2571ce4"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AGO726WQJRHY23L5DFJR5MPSZRT5PR7SFCQ4PESYKFXYPP2EJPHYGF6YOUTD75T2IXG5XITBRBJKXLMRYDOJF7HWNPS3X35KMXPYBPJ5QRTJRAKLF3XSRWGYG2WFHCFZAEIB66WCVXHQBLL5LSLMEL3PSE2YSKVQTYSKLIBQYIVMNJR6ILPN7D4VWIZF3XXSQKOQDVR6ZXIHE6Y"
+    }
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "EdwRequestId.47077744-24ec-45b5-9eac-e1df7e4b0d80",
+    "locale": "en-US",
+    "timestamp": "2017-11-15T12:05:33Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.73e9411e-0902-422d-bb85-cfd2a2571ce4"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGO726WQJRHY23L5DFJR5MPSZRT5PR7SFCQ4PESYKFXYPP2EJPHYGF6YOUTD75T2IXG5XITBRBJKXLMRYDOJF7HWNPS3X35KMXPYBPJ5QRTJRAKLF3XSRWGYG2WFHCFZAEIB66WCVXHQBLL5LSLMEL3PSE2YSKVQTYSKLIBQYIVMNJR6ILPN7D4VWIZF3XXSQKOQDVR6ZXIHE6Y"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

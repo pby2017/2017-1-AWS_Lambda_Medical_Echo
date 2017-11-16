@@ -1,0 +1,52 @@
+// command : yes 7
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.9fea846b-4ab4-43e2-a642-07cdd6a39dee",
+    "application": {
+      "applicationId": "amzn1.ask.skill.73e9411e-0902-422d-bb85-cfd2a2571ce4"
+    },
+    "attributes": {
+      "sayingType": "stroke",
+      "answerCount": 7,
+      "Disease": "brain vessel",
+      "yesAnswerCount": 7,
+      "BrainVessel": "stroke"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGO726WQJRHY23L5DFJR5MPSZRT5PR7SFCQ4PESYKFXYPP2EJPHYGF6YOUTD75T2IXG5XITBRBJKXLMRYDOJF7HWNPS3X35KMXPYBPJ5QRTJRAKLF3XSRWGYG2WFHCFZAEIB66WCVXHQBLL5LSLMEL3PSE2YSKVQTYSKLIBQYIVMNJR6ILPN7D4VWIZF3XXSQKOQDVR6ZXIHE6Y"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.45a3403f-5e88-42a4-8262-bb175226a307",
+    "intent": {
+      "name": "YesOrNoIntent",
+      "slots": {
+        "SurveyAnswer": {
+          "name": "SurveyAnswer",
+          "value": "yes"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2017-11-15T10:20:37Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.73e9411e-0902-422d-bb85-cfd2a2571ce4"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGO726WQJRHY23L5DFJR5MPSZRT5PR7SFCQ4PESYKFXYPP2EJPHYGF6YOUTD75T2IXG5XITBRBJKXLMRYDOJF7HWNPS3X35KMXPYBPJ5QRTJRAKLF3XSRWGYG2WFHCFZAEIB66WCVXHQBLL5LSLMEL3PSE2YSKVQTYSKLIBQYIVMNJR6ILPN7D4VWIZF3XXSQKOQDVR6ZXIHE6Y"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,50 @@
+// command : brain vessel
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.20262985-688f-46c8-b96f-9a34ecae5667",
+    "application": {
+      "applicationId": "amzn1.ask.skill.73e9411e-0902-422d-bb85-cfd2a2571ce4"
+    },
+    "attributes": {
+      "sayingType": "",
+      "answerCount": 0,
+      "yesAnswerCount": 0
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGO726WQJRHY23L5DFJR5MPSZRT5PR7SFCQ4PESYKFXYPP2EJPHYGF6YOUTD75T2IXG5XITBRBJKXLMRYDOJF7HWNPS3X35KMXPYBPJ5QRTJRAKLF3XSRWGYG2WFHCFZAEIB66WCVXHQBLL5LSLMEL3PSE2YSKVQTYSKLIBQYIVMNJR6ILPN7D4VWIZF3XXSQKOQDVR6ZXIHE6Y"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.f8886015-a608-4911-b914-d30de77e145e",
+    "intent": {
+      "name": "DiseasePartIsIntent",
+      "slots": {
+        "Disease": {
+          "name": "Disease",
+          "value": "brain vessel"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2017-11-15T12:29:21Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.73e9411e-0902-422d-bb85-cfd2a2571ce4"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGO726WQJRHY23L5DFJR5MPSZRT5PR7SFCQ4PESYKFXYPP2EJPHYGF6YOUTD75T2IXG5XITBRBJKXLMRYDOJF7HWNPS3X35KMXPYBPJ5QRTJRAKLF3XSRWGYG2WFHCFZAEIB66WCVXHQBLL5LSLMEL3PSE2YSKVQTYSKLIBQYIVMNJR6ILPN7D4VWIZF3XXSQKOQDVR6ZXIHE6Y"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}
