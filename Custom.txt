@@ -1,0 +1,23 @@
+Custom Slot Types
+
+LIST_OF_BRAIN_VESSEL	stroke | traumatic | spinal
+LIST_OF_CANCER	thyroid | stomach | colorectal | lung
+LIST_OF_DISEASE	cancer | heart | brain vessel | rare
+LIST_OF_HEART	heart attack | angina | failure
+LIST_OF_RARE	parkinson
+LIST_OF_HELP_ME	help me
+LIST_OF_Start_Survey ready | not yet
+LIST_OF_Survey_Answer yes | no
+
+-------------------------------------------------------
+
+Sample Utterances
+
+DetailPartIsIntent {Cancer}
+DetailPartIsIntent {Heart}
+DetailPartIsIntent {BrainVessel}
+DetailPartIsIntent {Rare}
+DiseasePartIsIntent {Disease}
+HelpMeIntent {HelpMe}
+YesOrNotIntent {SurveyAnswer}
+ReadyOrNotYetIntent {StartSurvey}

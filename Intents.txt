@@ -1,0 +1,70 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Cancer",
+          "type": "LIST_OF_CANCER"
+        },
+        {
+          "name": "Heart",
+          "type": "LIST_OF_HEART"
+        },
+        {
+          "name": "BrainVessel",
+          "type": "LIST_OF_BRAIN_VESSEL"
+        },
+        {
+          "name": "Rare",
+          "type": "LIST_OF_RARE"
+        }
+      ],
+      "intent": "DetailPartIsIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Disease",
+          "type": "LIST_OF_DISEASE"
+        }
+      ],
+      "intent": "DiseasePartIsIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "HelpMe",
+          "type": "LIST_OF_HELP_ME"
+        }
+      ],
+      "intent": "HelpMeIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "SurveyAnswer",
+          "type": "LIST_OF_Survey_Answer"
+        }
+      ],
+      "intent": "YesOrNoIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "StartSurvey",
+          "type": "LIST_OF_Start_Survey"
+        }
+      ],
+      "intent": "ReadyOrNotYetIntent"
+    }
+  ]
+}
